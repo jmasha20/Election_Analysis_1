@@ -19,17 +19,19 @@ The analysis of the election shows that:
 
 * Total Votes Cast in Congressional Election: 369,711
 
-* Number of votes and the percentage of total votes for each county in the precinct:
-    Jefferson: 10.5% (38,855)
-    Denver: 82.8% (306,055)
-    Arapahoe: 6.7% (24,801)
+* _Number of votes and the percentage of total votes for each county in the precinct_:
 
-* Largest County Vote Turnout: Denver
+    * Jefferson: 10.5% (38,855)
+    * Denver: 82.8% (306,055)
+    * Arapahoe: 6.7% (24,801)
 
-* Number of votes and the percentage of the total votes each candidate received.
-    Charles Casper Stockham: 23.0% (85,213)
-    Diana DeGette: 73.8% (272,892)
-    Raymon Anthony Doane: 3.1% (11,606)
+* _Largest County Vote Turnout_: _Denver_
+
+* _Number of votes and the percentage of the total votes each candidate received_.
+
+    * Charles Casper Stockham: 23.0% (85,213)
+    * Diana DeGette: 73.8% (272,892)
+    * Raymon Anthony Doane: 3.1% (11,606)
 
 * Winner: Diana DeGette
 * Winning Vote Count: 272,892
