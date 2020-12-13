@@ -37,3 +37,43 @@ A Colorado Board of Elections wants confirmation and analysis of a recent local 
 
 ## Election-Audit Summary
 The analysis performed confirms the votes and winner by county in the congressional election. The election commission should refer to the code modifications to the original code for future audits, to include the county analysis. 
+
+See here examples of code modifications:
+# Create a county list and county votes dictionary.
+counties_options = []
+counties_votes = {}
+
+# Write an if statement that checks that the
+        # county does not match any existing county in the county list.
+        if county_name not in counties_options:
+
+            # Add the existing county to the list of counties.
+            counties_options.append(county_name)
+
+            # Begin tracking the county's vote count.
+            counties_votes[county_name] = 0
+
+        # Add a vote to that county's vote count.
+        counties_votes[county_name] += 1
+
+# Write a for loop to get the county from the county dictionary.
+    for counties_option in counties_options:
+        # Retrieve the county vote count.
+        votes = counties_votes[counties_option]
+        # Calculate the percentage of votes for the county.
+        vote_percentage = float(votes) / float(total_votes) * 100
+        counties_results = (
+            f"{counties_option}: {vote_percentage:.1f}% ({votes:,})\n")
+            
+         # Print the county results to the terminal.
+        print(counties_results)
+         # Save the county votes to a text file.
+        txt_file.write("\n" + counties_results)
+       
+         # Write an if statement to determine the winning county and get its vote count.
+        if (votes > winning_county_count) and (vote_percentage > winning_percentage):
+            winning_county = counties_option
+            winning_county_count = votes
+            winning_percentage = vote_percentage
+
+[See complete code here](https://github.com/jmasha20/Election_Analysis_1/blob/main/analysis/election_results.txt)
