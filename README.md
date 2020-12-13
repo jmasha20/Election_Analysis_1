@@ -38,8 +38,10 @@ A Colorado Board of Elections wants confirmation and analysis of a recent local 
 ## Election-Audit Summary
 The analysis performed confirms the votes and winner by county in the congressional election. The election commission should refer to the code modifications to the original code for future audits, to include the county analysis. 
 
-## Examples code modifications:
-#####Create a county list and county votes dictionary.
+Examples code modifications:
+
+##### Create a county list and county votes dictionary.
+
 counties_options = []
 counties_votes = {}
 
