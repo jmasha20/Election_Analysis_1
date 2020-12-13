@@ -15,17 +15,17 @@ A Colorado Board of Elections wants confirmation and analysis of a recent local 
 
 ## Election-Audit Results
 
-* Total Votes Cast in Congressional Election: 369,711
+* **Total Votes Cast in Congressional Election**: **369,711**
 
-* **Number of votes and the percentage of total votes for each county in the precinct:
+* **Number of votes and the percentage of total votes for each county in the precinct**:
 
     * Jefferson: 10.5% (38,855)
     * Denver: 82.8% (306,055)
     * Arapahoe: 6.7% (24,801)
 
-* **Largest County Vote Turnout: Denver
+* **Largest County Vote Turnout: Denver**
 
-* **Number of votes and the percentage of the total votes each candidate received.
+* **Number of votes and the percentage of the total votes each candidate received**.
 
     * Charles Casper Stockham: 23.0% (85,213)
     * Diana DeGette: 73.8% (272,892)
