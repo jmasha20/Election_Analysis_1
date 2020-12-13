@@ -38,12 +38,12 @@ A Colorado Board of Elections wants confirmation and analysis of a recent local 
 ## Election-Audit Summary
 The analysis performed confirms the votes and winner by county in the congressional election. The election commission should refer to the code modifications to the original code for future audits, to include the county analysis. 
 
-See here examples of code modifications:
-# Create a county list and county votes dictionary.
+## Examples code modifications:
+#####Create a county list and county votes dictionary.
 counties_options = []
 counties_votes = {}
 
-# Write an if statement that checks that the
+##### Write an if statement that checks that the
         # county does not match any existing county in the county list.
         if county_name not in counties_options:
 
@@ -56,7 +56,7 @@ counties_votes = {}
         # Add a vote to that county's vote count.
         counties_votes[county_name] += 1
 
-# Write a for loop to get the county from the county dictionary.
+##### Write a for loop to get the county from the county dictionary.
     for counties_option in counties_options:
         # Retrieve the county vote count.
         votes = counties_votes[counties_option]
