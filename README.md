@@ -31,7 +31,7 @@ A Colorado Board of Elections wants confirmation and analysis of a recent local 
     * Diana DeGette: 73.8% (272,892)
     * Raymon Anthony Doane: 3.1% (11,606)
 
-* Winner: Diana DeGette
+* **Winner: Diana DeGette**
 * Winning Vote Count: 272,892
 * Winning Percentage: 73.8%
 
