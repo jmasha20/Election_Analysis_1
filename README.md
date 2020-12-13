@@ -31,19 +31,18 @@ A Colorado Board of Elections wants confirmation and analysis of a recent local 
     * Diana DeGette: 73.8% (272,892)
     * Raymon Anthony Doane: 3.1% (11,606)
 
-* **Winner: Diana DeGette
+* Winner: Diana DeGette
 * Winning Vote Count: 272,892
 * Winning Percentage: 73.8%
 
 ## Election-Audit Summary
 The analysis performed confirms the votes and winner by county in the congressional election. The election commission should refer to the code modifications to the original code for future audits, to include the county analysis. 
 
-Examples code modifications:
+Example code modifications:
 
 ##### Create a county list and county votes dictionary.
-
-counties_options = []
-counties_votes = {}
+      counties_options = []
+      counties_votes = {}
 
 ##### Write an if statement that checks that the
         # county does not match any existing county in the county list.
